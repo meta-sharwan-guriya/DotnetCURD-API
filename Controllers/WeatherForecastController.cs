@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotnetCURD_API.Controllers;
+namespace RPG.Controllers;
 
 [ApiController]
 [Route("[controller]")]

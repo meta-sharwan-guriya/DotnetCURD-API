@@ -1,4 +1,4 @@
-namespace DotnetCURD_API;
+namespace RPG;
 
 public class WeatherForecast
 {
