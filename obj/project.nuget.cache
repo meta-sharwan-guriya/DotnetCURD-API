@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DK/E3c+gyHzse5oYmQVV8MUx59xLdYOclJ9eoXVGzQj8g30mXzJGrSt/NdqIY/3qAGa8+wzzYb1UlGjyMfSkug==",
+  "success": true,
+  "projectFilePath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sharwan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Sharwan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Sharwan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Sharwan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Sharwan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Sharwan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
