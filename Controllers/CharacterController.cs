@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using RPG.Services.CharacterServices;
 using Microsoft.AspNetCore.Mvc;
-
+using RPG.Dtos.Characters;
 
 namespace RPG.Controllers
 {
@@ -21,19 +21,19 @@ namespace RPG.Controllers
 
         [HttpGet]
         [Route("GetAll")]        // [HttpGet("GetAll")]
-        public async Task<ActionResult<ServicesResponse<List<Character>>>> Get()
+        public async Task<ActionResult<ServicesResponse<List<GetCharacterDto>>>> Get()
         {
             return Ok(await _context.GetAllCharacter());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<ServicesResponse<Character>>> Get(int id)
+        public async Task<ActionResult<ServicesResponse<GetCharacterDto>>> Get(int id)
         {
             return Ok(await _context.GetCharacterById(id));
         }
 
         [HttpPost]
-        public async Task<ActionResult<ServicesResponse<List<Character>>>> post(Character newPlayer)
+        public async Task<ActionResult<ServicesResponse<List<GetCharacterDto>>>> post(AddCharacterDto newPlayer)
         {
             return Ok(await _context.AddCharacter(newPlayer));
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {}
+    "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {}
   },
   "projects": {
-    "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {
+    "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+        "projectUniqueName": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
         "projectName": "DotnetCURD-API",
-        "projectPath": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+        "projectPath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
         "packagesPath": "C:\\Users\\Sharwan\\.nuget\\packages\\",
-        "outputPath": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\obj\\",
+        "outputPath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharwan\\AppData\\Roaming\\NuGet\\NuGet.Config"

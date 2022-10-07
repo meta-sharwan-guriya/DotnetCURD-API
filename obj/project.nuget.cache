@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4juDrxU/EDX4X2zPSrAz4Cwu3q2UV2dI6d+b+QJpUNXALN/LVdK4KzHx4kuh76kXE3cT9X/nnTI3icpg4QBJEw==",
+  "dgSpecHash": "VKlmvxcnGvUbPt4rzbXR3SEX8ze6qZpDltvEzybE+g8qTHOEjuJ6/RIP/j7b3YIEIWu8BzO+yYbsPEPSqVIioQ==",
   "success": true,
-  "projectFilePath": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+  "projectFilePath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sharwan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Sharwan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
