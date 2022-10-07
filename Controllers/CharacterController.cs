@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RPG.Services.CharacterServices;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace RPG.Controllers
 {
@@ -10,28 +12,29 @@ namespace RPG.Controllers
     [Route("api/[controller]")]
     public class CharacterController : ControllerBase
     {
-        public static List<Character> player = new List<Character>{
-            new Character(),
-            new Character{Name="Sam"}
-        };
+        private readonly ICharacterServices _context;
+
+        public CharacterController(ICharacterServices context)
+       {
+            _context = context;
+        }
 
         [HttpGet]
         [Route("GetAll")]        // [HttpGet("GetAll")]
         public ActionResult<List<Character>> Get()
         {
-            return Ok(player);
+            return Ok(_context.GetAllCharacter());
         }
 
         [HttpGet("{id}")]
         public ActionResult<Character> Get(int id)
         {
-            return Ok(player.FirstOrDefault(p => p.Id == id));
+            return Ok(_context.GetCharacterById(id));
         }
 
         [HttpPost]
         public ActionResult<List<Character>> post(Character newPlayer){
-            player.Add(newPlayer);
-            return Ok(player);
+            return Ok(_context.AddCharacter(newPlayer));
         }
     }
 }
