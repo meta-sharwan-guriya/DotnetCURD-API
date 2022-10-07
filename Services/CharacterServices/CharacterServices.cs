@@ -12,20 +12,25 @@ namespace RPG.Services.CharacterServices
             new Character(),
             new Character{Name="Sam"}
         };
-        public async Task<List<Character>> AddCharacter(Character newPlayer)
+        public async Task<ServicesResponse<List<Character>>> AddCharacter(Character newPlayer)
         {
+            var servicesResponse=new ServicesResponse<List<Character>>();
             player.Add(newPlayer);
-            return player;
+            servicesResponse.Data=player;
+            return  servicesResponse;
         }
 
-        public async Task<List<Character>> GetAllCharacter()
+        public async Task<ServicesResponse<List<Character>>> GetAllCharacter()
         {
-           return player;
+           return new ServicesResponse<List<Character>>{Data=player};
         }
 
-        public async Task<Character> GetCharacterById(int id)
+        public async Task<ServicesResponse<Character>> GetCharacterById(int id)
         {
-            return (player.FirstOrDefault(p => p.Id == id));
+            var servicesResponse=new ServicesResponse<Character>();
+            var character=player.FirstOrDefault(p => p.Id == id);
+            servicesResponse.Data=character;
+            return servicesResponse;
         }
     }
 }

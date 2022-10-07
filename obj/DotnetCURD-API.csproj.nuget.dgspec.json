@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {}
+    "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {}
   },
   "projects": {
-    "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {
+    "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+        "projectUniqueName": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
         "projectName": "DotnetCURD-API",
-        "projectPath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
+        "projectPath": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\DotnetCURD-API.csproj",
         "packagesPath": "C:\\Users\\Sharwan\\.nuget\\packages\\",
-        "outputPath": "C:\\GET github\\DotNet\\API\\DotnetCURD-API\\obj\\",
+        "outputPath": "c:\\GET github\\DotNet\\API\\DotnetCURD-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharwan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
