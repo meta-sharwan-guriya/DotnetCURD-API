@@ -15,26 +15,27 @@ namespace RPG.Controllers
         private readonly ICharacterServices _context;
 
         public CharacterController(ICharacterServices context)
-       {
+        {
             _context = context;
         }
 
         [HttpGet]
         [Route("GetAll")]        // [HttpGet("GetAll")]
-        public ActionResult<List<Character>> Get()
+        public async Task<ActionResult<List<Character>>> Get()
         {
-            return Ok(_context.GetAllCharacter());
+            return Ok(await _context.GetAllCharacter());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Character> Get(int id)
+        public async Task<ActionResult<Character>> Get(int id)
         {
-            return Ok(_context.GetCharacterById(id));
+            return Ok(await _context.GetCharacterById(id));
         }
 
         [HttpPost]
-        public ActionResult<List<Character>> post(Character newPlayer){
-            return Ok(_context.AddCharacter(newPlayer));
+        public async Task<ActionResult<List<Character>>> post(Character newPlayer)
+        {
+            return Ok(await _context.AddCharacter(newPlayer));
         }
     }
 }
